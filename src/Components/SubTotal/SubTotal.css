@@ -1,0 +1,35 @@
+.subTotal {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border: 1px solid #dddddd;
+  justify-content: space-between;
+}
+
+.subTotal__gift {
+  display: flex;
+  align-items: center;
+}
+
+.subTotal__gift > input {
+  margin: 0 5px 0 0;
+}
+
+.subTotal > button {
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin: 10px 0 0 0;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  cursor: pointer;
+}
+
+.subTotal > button:focus {
+  outline: 0;
+}
